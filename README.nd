@@ -1,0 +1,34 @@
+# Fast SMTP Checker
+
+Fast SMTP Checker is a Ruby script that allows you to check the status of multiple SMTP servers in parallel. It verifies if the SMTP servers are working and can send emails using their credentials. The script supports various types of connections, including authentication, SSL, and non-SSL.
+
+## Features
+
+- Check the status of multiple SMTP servers concurrently
+
+- Support for SMTP servers with and without authentication
+
+- Support for SSL and non-SSL connections
+
+- Instantly send server details to a recipient email if the SMTP server is working
+
+- Save the details of working SMTP servers to a file without duplicates
+
+## Prerequisites
+
+- Ruby 2.7 or above
+
+- `mail` gem
+
+- `concurrent-ruby` gem
+
+- `colorize` gem
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+
+   git clone https://github.com/Ill-u/Smtpchecker.git
+
